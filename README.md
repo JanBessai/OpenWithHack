@@ -14,5 +14,5 @@ Requires [pygobject](https://pygobject.readthedocs.io/en/latest/) to work. Teste
 ## [openwith.desktop](/openwith.desktop)
 Place (or symlink) this into `~/.local/share/applications/openwith.desktop`. It creates an entry in GtkAppChooser, which will then open openwith.py, where you select the application to open your file with.
 
-You need to adapt [this line](/openwith.desktop#L7) according to your needs/file locations! The `%f` is the file name as selected by GtkAppChooser.
+You need to adapt [this line](/openwith.desktop#L7) according to your needs/file locations! The `%f` is the file name as selected by GtkAppChooser, it is documented [here](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en).
 
