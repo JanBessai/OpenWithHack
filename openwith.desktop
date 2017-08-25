@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Name=Application From Disk
+Comment=Allows selecting any exetuable to open the file
+Exec=nix-shell -p python35Packages.pygobject3 --command "python3.5 /home/jan/projects/OpenWithHack/openwith.py %f"
+MimeType=text/plain;*/*
+NoDisplay=true
