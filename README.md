@@ -17,5 +17,5 @@ Place (or symlink) this into `~/.local/share/applications/openwith.desktop` or `
 You need to adapt [Exec](/openwith.desktop#L7) according to your needs/file locations! The `%f` is the file name as selected by GtkAppChooser. It is documented [here](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en).
 
 ## Contributions
-Just open an issue and or pull-request. Especially distribution packages might be nice.
+Just open an issue and or pull-request. Especially distribution-specific packages might be nice.
 
