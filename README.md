@@ -4,7 +4,7 @@ Allow using any application you like for opening files in Gnome
 In Gtk+-3.11 (upward) opening files with GtkAppChooser does not allow choosing an application from disk anymore.
 Gnome people do not consider this a bug, see https://bugzilla.gnome.org/show_bug.cgi?id=650284
 
-Here are two small scripts to circumwent this.
+Here are two small scripts to circumvent this.
 
 ## [openwith.py](/openwith.py)
 Starts a file selection dialog and spawns the selected file, forwarding its commandline arguments.
